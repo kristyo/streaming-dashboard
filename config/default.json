@@ -1,0 +1,15 @@
+{
+  "server": {
+    "port": 5000,
+    "jwtSecret": "your_jwt_secret_here"
+  },
+  "streaming": {
+    "defaultResolution": "1280x720",
+    "maxBitrate": 5000,
+    "allowedPlatforms": ["youtube", "twitch", "facebook"]
+  },
+  "database": {
+    "filename": "streams.db",
+    "table": "streams"
+  }
+}
